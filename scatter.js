@@ -128,11 +128,11 @@ d3.select("#graph-size").on("change", function(){
   else if(size == "wide"){
     console.log("Setting Wide");
     screenSetting.width = 1000;
-    screenSetting.height = 400;
+    screenSetting.height = 450;
   }
   else if(size == "tall"){
     console.log("Setting tall");
-    screenSetting.width = 500;
+    screenSetting.width = 600;
     screenSetting.height = 800;
   };
 
